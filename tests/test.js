@@ -1,7 +1,8 @@
 const test = require('ava');
 
-const { default: f } = require('../dist/index');
+const { default: a } = require('../dist/index');
 
-test('xxx', (t) => {
+test('log日志', (t) => {
+	a('日志信息');
 	t.pass();
 });
