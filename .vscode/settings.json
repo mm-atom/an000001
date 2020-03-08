@@ -52,5 +52,6 @@
 	"breadcrumbs.enabled": true,
 	"editor.insertSpaces": false,
 	"git.alwaysShowStagedChangesResourceGroup": true,
-	"terminal.integrated.scrollback": 9999999999999999999999999999999
+	"terminal.integrated.scrollback": 9999999999999999999999999999999,
+	"mm.atom.type": "nodejs",
 }
