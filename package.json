@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/an000001",
-	"version": "1.0.202003081220",
+	"version": "1.0.202003091021",
 	"description": "log日志",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
