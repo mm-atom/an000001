@@ -1,6 +1,6 @@
-import logger from 'log4js';
+import anylogger from 'anylogger';
 
-const log = logger.getLogger();
+const logger = anylogger('userlog');
 
 /**
  * 日志
@@ -8,5 +8,5 @@ const log = logger.getLogger();
  * @param args 参数
  */
 export default function an7(message: string, ...args: string[]) {
-	log.debug(message, ...args);
+	logger.debug(message, ...args);
 }

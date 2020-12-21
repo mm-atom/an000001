@@ -4,7 +4,7 @@
 	"description": "log日志",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
-		"watch": "tsc -w & ava --watch ./tests/*.js",
+		"dev": "tsc -w & ava --watch ./tests/*.js",
 		"clean": "del-cli ./dist/",
 		"lint": "eslint ./src/**/*.ts",
 		"compile": "tsc",
@@ -41,7 +41,7 @@
 	],
 	"license": "MIT",
 	"peerDependencies": {
-		"log4js": "*"
+		"anylogger": "*"
 	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "latest",
@@ -51,7 +51,7 @@
 		"eslint": "latest",
 		"eslint-config-prettier": "latest",
 		"eslint-plugin-import": "latest",
-		"log4js": "latest",
+		"anylogger": "latest",
 		"typescript": "next"
 	}
 }
